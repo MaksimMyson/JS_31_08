@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+input[type="checkbox"],
+input[type="radio"],
+input[type="color"],
+input[type="text"],
+input[type="date"],
+input[type="range"],
+select,
+textarea {
+    margin: 10px 0;
+    padding: 5px;
+    display: block;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+div {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    min-height: 20px;
+}
+
+#out-1,
+#out-2,
+#out-31,
+#out-32,
+#out-4,
+#out-6,
+#out-7,
+#out-8,
+#out-9,
+#out-10 {
+    font-weight: bold;
+}
+
+form {
+    margin: 20px 0;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
